@@ -7,8 +7,7 @@ impl Solution {
         let mut recon:i32=0;
         while tempclon>0{
             recon*=10;
-            let mut rem=tempclon%10;
-            recon+=rem;
+            recon+=tempclon%10;
             tempclon/=10;
 
         }
